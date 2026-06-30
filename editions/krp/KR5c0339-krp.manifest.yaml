@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0339/krp/v1
+canonical_location: https://kanripo.org/bkk/KR5c0339/krp/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大丹問答
+  date: '2015-08-29 00:56:17.497439'
+  source:
+    repository: kanripo
+    path: KR5c0339
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: krp
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0339_000-krp.yaml, hash: 'sha256:fded1d7e1437117b74382fa7f9d366d94840159a3585283ceba7c1a5a214400c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0339_000-krp.markers.yaml, hash: 'sha256:11d519b502e655cb776a71ca7e0d7d54d8f7202b95b55a639d9b9a6324562f1d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0339_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1077
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:1db56bb40fca9c2443d94560b3b9adb992d414204d14132c5229c923867060e1

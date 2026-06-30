@@ -1,0 +1,43 @@
+canonical_identifier: bkk:krp/KR5c0339/v1
+canonical_location: https://kanripo.org/bkk/KR5c0339/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大丹問答一卷
+  identifiers:
+    alt_id:
+    - CH2a1442
+    - DZ0939
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR5c
+  source:
+    repository: tls-texts
+    path: data/tls/KR5c0339.xml
+  edition:
+    short: bkk
+editions:
+- {short: HFL, label: 【正統道藏・涵芬樓版】}
+- {short: ZTDZ, label: 【正統道藏・三家本】}
+- {short: krp}
+assets:
+  parts:
+  - {seq: 1, filename: KR5c0339_001.yaml, hash: 'sha256:408f8680798d295cf4dce9f0940dde15f4b2ed4dc4d5bc2b4bc28aaed9a59ecd'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0339_001.markers.yaml, hash: 'sha256:4069065e3062475c528a257c931df68228be58b1bcbea7fa90ebefd56d1721da'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0339_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1058
+  label: 大丹問答
+  type: section
+  level: 1
+hash: sha256:f3b077013f0e5d8f85a6644d6702f50a0e5c9479a2dd869fc82b22b2e29cdc49
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
