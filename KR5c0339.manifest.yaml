@@ -18,14 +18,16 @@ metadata:
   edition:
     short: bkk
 editions:
-- {short: HFL, label: 【正統道藏・涵芬樓版】}
-- {short: ZTDZ, label: 【正統道藏・三家本】}
-- {short: krp}
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: krp
 assets:
   parts:
-  - {seq: 1, filename: KR5c0339_001.yaml, hash: 'sha256:408f8680798d295cf4dce9f0940dde15f4b2ed4dc4d5bc2b4bc28aaed9a59ecd'}
+  - {seq: 1, filename: KR5c0339_001.yaml, hash: 'sha256:f27ee7ea5ce1f48db3fe54dd150c48f0a32137e8b7e9865f806fe4d6804abded'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR5c0339_001.markers.yaml, hash: 'sha256:4069065e3062475c528a257c931df68228be58b1bcbea7fa90ebefd56d1721da'}
+  - {seq: 1, role: markers, filename: assets/KR5c0339_001.markers.yaml, hash: 'sha256:d2be27c102c5158d89a12c39911cd5639254e85200e465c45ba9441dcfada155'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,7 +39,4 @@ table_of_contents:
   label: 大丹問答
   type: section
   level: 1
-hash: sha256:f3b077013f0e5d8f85a6644d6702f50a0e5c9479a2dd869fc82b22b2e29cdc49
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:05767e47647bdb7396f955aaf155d2daf7c6c9cc1262489451c8d27de6f6ac85
