@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR5c0339/v1
 canonical_location: https://kanripo.org/bkk/KR5c0339/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大丹問答一卷
   identifiers:
@@ -25,9 +25,9 @@ editions:
 - short: krp
 assets:
   parts:
-  - {seq: 1, filename: KR5c0339_001.yaml, hash: 'sha256:f27ee7ea5ce1f48db3fe54dd150c48f0a32137e8b7e9865f806fe4d6804abded'}
+  - {seq: 1, filename: KR5c0339_001.yaml, hash: 'sha256:408f8680798d295cf4dce9f0940dde15f4b2ed4dc4d5bc2b4bc28aaed9a59ecd'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR5c0339_001.markers.yaml, hash: 'sha256:d2be27c102c5158d89a12c39911cd5639254e85200e465c45ba9441dcfada155'}
+  - {seq: 1, role: markers, filename: assets/KR5c0339_001.markers.yaml, hash: 'sha256:65575e41a4b3a812d9e5ce28bd8e4663343c8fd8dfc4704379978da4477d0198'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,4 +39,7 @@ table_of_contents:
   label: 大丹問答
   type: section
   level: 1
-hash: sha256:05767e47647bdb7396f955aaf155d2daf7c6c9cc1262489451c8d27de6f6ac85
+hash: sha256:e6bb9366f311d3a041699203b3fb116b4664d2acda76b09f9671cd2ba8231879
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
